@@ -1,4 +1,4 @@
-#### NPM (Node Package Manager)
+# NPM (Node Package Manager)
 
 Node.js 패키지를 관리하고 배포하는 데 사용되는 소프트웨어입니다. 
 Node.js는 JavaScript 런타임 환경으로, 서버 측 애플리케이션 개발에 주로 사용됩니다. 
