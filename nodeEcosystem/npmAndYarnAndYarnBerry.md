@@ -1,6 +1,6 @@
 # npm, Yarn, Yarn Berry의 차이점과 장단점
 
-## npm
+## <span style="color: blue;">npm<span style="color: red;">
 npm (Node Package Manager)
 npm은 Node.js의 기본 패키지 매니저로, Node.js 설치 시 기본적으로 함께 설치됩니다. JavaScript 생태계에서 가장 널리 사용되는 패키지 매니저입니다.
 
@@ -17,7 +17,7 @@ npm은 Node.js의 기본 패키지 매니저로, Node.js 설치 시 기본적으
 
 -----
 
-## Yarn
+## <span style="color: blue;">Yarn<span style="color: red;">
 Yarn은 Facebook, Google, Exponent, Tilde가 협력하여 만든 npm의 대안 패키지 매니저로, 성능과 보안을 개선하는 데 중점을 두고 있습니다.
 
 **장점:**
@@ -32,7 +32,7 @@ Yarn은 Facebook, Google, Exponent, Tilde가 협력하여 만든 npm의 대안 �
 
 
 -----
-## Yarn Berry
+## <span style="color: blue;">Yarn Berry<span style="color: red;">
 Yarn Berry는 Yarn의 두 번째 주요 버전으로, 성능, 기능, 보안 측면에서 많은 개선을 도입했습니다. **"Plug'n'Play (PnP)" 모드와 플러그인 시스템** 등이 주요 특징입니다.
 
 - Plug'n'Play (PnP): **node_modules 폴더를 생성하지 않고**, 의존성을 .pnp.js 파일로 관리하여 **디스크 사용량을 줄이고 성능을 향상**시킵니다.
