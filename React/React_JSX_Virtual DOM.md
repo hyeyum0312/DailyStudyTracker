@@ -28,12 +28,15 @@ const element = React.createElement('h1', { className: 'greeting' }, 'Hello, wor
 Virtual DOM은 실제 DOM(Document Object Model)의 가벼운 사본입니다. 
 메모리에 존재하며, 실제 DOM과 같은 구조를 가지고 있습니다. 리액트는 Virtual DOM을 사용하여 UI 변경 사항을 추적하고 효율적으로 업데이트합니다.
 
+
+
 **왜 Virtual DOM을 사용하는가?**
 
 
 실제 DOM 조작은 느리고 비용이 많이 드는 작업입니다. 
 특히, 많은 요소를 한 번에 업데이트하거나 복잡한 트리를 조작할 때 더욱 그렇습니다. 
 Virtual DOM을 사용하면 **변경 사항을 메모리에서 먼저 처리**한 후, **필요한 부분만 실제 DOM에 반영하므로 성능이 크게 향상**됩니다.
+
 
 **Virtual DOM의 작동 방식**
 
